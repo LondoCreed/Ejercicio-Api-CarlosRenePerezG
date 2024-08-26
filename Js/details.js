@@ -45,9 +45,8 @@ if (!departamentoId) {
                         tarjeta.className = 'col-md-4 mb-4'
                         tarjeta.innerHTML = `
                             <div class="card">
-                                <img src="" class="card-img-top" alt="">
+                                <img src="../Rss/CC.webp" class="card-img-top" alt="imagenes">
                                 <div class="card-body">
-                                    <img src="../Rss/CC.webp" class="card-img-top" alt="imagenes">
                                     <h5 class="card-title">${item.name || 'Nombre no disponible'}</h5>
                                     <p class="card-text">Esta es una ciudad</p>
                                 </div>
@@ -71,9 +70,8 @@ if (!departamentoId) {
                         tarjeta.className = 'col-md-4 mb-4'
                         tarjeta.innerHTML = `
                             <div class="card">
-                                <img src="" class="card-img-top" alt="">
+                                 <img src="../Rss/An.webp" class="card-img-top" alt="imagenes">
                                 <div class="card-body">
-                                    <img src="../Rss/An.webp" class="card-img-top" alt="imagenes">
                                     <h5 class="card-title">${item.name || 'Nombre no disponible'}</h5>
                                     <p class="card-text">Esta es un Area Natural</p>
                                 </div>
