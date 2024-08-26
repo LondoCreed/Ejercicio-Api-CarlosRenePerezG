@@ -40,7 +40,7 @@ function mostrarDepartamentos(departamentos) {
         <div class="card-body bg-secondary-subtle">
           <h5 class="card-title">${departamento.name}</h5>
           <p class="card-text">Habitantes: ${departamento.population}</p>
-          <a href="./details.html?id=${departamento.id}" class="btn btn-details">Ver detalles</a>
+          <a href="../details.html?id=${departamento.id}" class="btn btn-details">Ver detalles</a>
         </div>
       </div>
     `;
