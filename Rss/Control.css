@@ -1,0 +1,68 @@
+/* Style general */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style header */
+.header {
+    background-color: #004080;
+    color: white;
+}
+
+/* Style h1 header */
+.ConoceCol{
+    color: cornflowerblue; 
+}
+
+/* Justificamos la introduccion */
+.text-justify {
+    text-align: justify;
+  }
+
+/* Style tarjeta */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Style boton general */
+.btn-details {
+    background-color: #004080;
+    color: white;
+}
+
+/* Style bordes de tabla y alineacion */
+table.table-bordered th, 
+table.table-bordered td {
+    border: 1px solid #7deb07;
+    vertical-align: middle; 
+}
+
+/* Style imagenes de la tabla */
+table.table img {
+    width: 100%;
+    height: auto; 
+    object-fit: contain;
+    background-color: transparent;
+}
+
+/* Style definicion de tamaño para viasualizar mejor */
+table.table td {
+    width: 200px;
+}
+
+/* Style aplicable segun funcionl */
+.fondo-azul {
+    background-color: blue;
+    color: black;
+}
+
+/* Style aplicable segun funcionl */
+.fondo-verde {
+    background-color: green;
+    color: white;
+}
+
+/* Style que se da al numero de la tabla para mejor estetica */
+.numero{
+    font-size: 50px;
+}

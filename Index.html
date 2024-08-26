@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Rss/Control.css">
+</head>
+<body class="body bg-primary-subtle">
+    <header class="header bg-dark text-white text-center p-3 d-flex justify-content-between">
+        <h1 class=" ConoceCol">Conoce Colombia</h1>
+        <nav><a href="./especiesInvasoras.html" class="btn btn-secondary">Info Especies Invasoras</a></nav>
+    </header>
+    
+    <main class="container mt-4">
+        <section id="intro" class="mb-5">
+            <h2>Introducción</h2>
+            <!-- Aca colocare una Introducción usando la descripcion de colombia en la api -->
+        </section>
+
+        <h4 class="pb-5">A continuación una lista con los departamentos</h4>
+
+        <!-- filtros -->
+    <section id="filtros" class="mb-4 w-50">
+        <input type="text" id="filtroNombre" class="form-control mb-2" placeholder="Filtrar por nombre">
+        <select id="filtroHabitantes" class="form-select">
+            <option value="todos">Mostrar todos</option>
+            <option value="masDeUnMillon">Más de 1,000,000 de habitantes</option>
+            <option value="menosDeUnMillon">Menos de 1,000,000 de habitantes</option>
+        </select>
+    </section>
+
+        <section id="departamentosTarjetas" class="row">
+            <!-- Aca van las tarjetas -->
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>Te invitamos a descubrir colombia</p>
+    </footer>
+
+    <!-- Linkeos necesarios -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/Index.js"></script>
+</body>
+</html>
