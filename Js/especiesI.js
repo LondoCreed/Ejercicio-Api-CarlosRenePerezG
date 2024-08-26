@@ -27,7 +27,6 @@ function desplegarEspeciesInv() {
                     <td class = "numero">${especie.riskLevel || 0}</td>
                     <td><img src="${especie.urlImage}"></td>
                 `
-                console.log(especie);
                 
                 // Añadir la fila a la tabla
                 tabla.appendChild(fila)

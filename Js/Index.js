@@ -9,7 +9,6 @@ fetch('https://api-colombia.com/api/v1/Country/Colombia')
     desCol.className = 'text-justify';
     desCol.innerHTML = `${elemento.description}`;
     introduccion.appendChild(desCol);
-    console.log(elemento);
     
   })
   .catch(error => {
